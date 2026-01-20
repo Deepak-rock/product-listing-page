@@ -2,7 +2,7 @@
 
 A modern, responsive product listing application built with **React** and **Vite**, featuring real-time search, filtering, sorting, and favorites management.
 
-🔗 **Live Demo:** *(Add when deployed)*  
+🔗 **Live Demo:** https://productlistingpagedeepak.netlify.app 
 📦 **GitHub Repo:** https://github.com/Deepak-rock/product-listing-page
 
 ---
