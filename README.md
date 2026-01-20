@@ -1,70 +1,103 @@
-# Getting Started with Create React App
+# 🛍️ Product Listing Page – React Project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern, responsive product listing application built with **React** and **Vite**, featuring real-time search, filtering, sorting, and favorites management.
 
-## Available Scripts
+🔗 **Live Demo:** *(Add when deployed)*  
+📦 **GitHub Repo:** https://github.com/Deepak-rock/product-listing-page
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## ✨ Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Product Browsing**  
+  Browse products from the Fake Store API with images, ratings, and pricing details.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Smart Recommendations**  
+  Recommendation badges for:
+  - ⭐ Products with ratings > 4  
+  - 💸 Products priced below average
 
-### `npm test`
+- **Responsive Design**  
+  Fully responsive UI for mobile, tablet, and desktop using Tailwind CSS.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **Loading & Error States**  
+  Smooth loaders, graceful error handling, and retry functionality.
 
-### `npm run build`
+- **Smooth Animations**  
+  Subtle fade-in and scale animations for enhanced UX.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 🛠 Tech Stack
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- **Frontend:** React 19.2
+- **Build Tool:** Vite
+- **Styling:** Tailwind CSS 4.1 (`@tailwindcss/vite`)
+- **API:** Fake Store API – https://fakestoreapi.com
+- **Code Quality:** ESLint (React best practices)
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 📁 Project Structure
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```text
+src/
+├── components/
+│   ├── Navbar/
+│   │   └── index.js
+│   ├── Products/
+│   │   └── index.js
+│   ├── ProductsComponents/
+│   │   └── index.js
+│   ├── StyledComponents/
+│   │   └── StyledCSS.js
+├── image/
+├── App.css
+├── App.js
+├── index.js
+└── setupTest.js
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+# Clone the repository
+git clone https://github.com/Deepak-rock/product-listing-page
+cd product-listing-page
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+# Install dependencies
+npm install
 
-## Learn More
+# Start the development server
+npm start
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+# Create optimized production build
+npm run build
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+# Preview production build locally
+npm run preview
 
-### Code Splitting
+## 🧠 Key Implementation Highlights
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Scalable React component structure
 
-### Analyzing the Bundle Size
+Optimized state management for search, filter, and sorting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Tailwind CSS best practices for maintainable UI
 
-### Making a Progressive Web App
+All architectural and UI decisions reviewed and customized by the developer
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## 🌍 Browser Compatibility
 
-### Advanced Configuration
+Chrome (latest)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Firefox (latest)
 
-### Deployment
+Safari (latest)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Edge (latest)
 
-### `npm run build` fails to minify
+## 🤝 Contributing
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Issues, feature requests, and improvements are welcome!
+Feel free to open a PR or submit an issue.
+
+## 📄 License
+
+This project is open source and available under the MIT License.
