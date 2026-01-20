@@ -31,8 +31,6 @@ A modern, responsive product listing application built with **React** and **Vite
 ## 🛠 Tech Stack
 
 - **Frontend:** React 19.2
-- **Build Tool:** Vite
-- **Styling:** Tailwind CSS 4.1 (`@tailwindcss/vite`)
 - **API:** Fake Store API – https://fakestoreapi.com
 - **Code Quality:** ESLint (React best practices)
 
